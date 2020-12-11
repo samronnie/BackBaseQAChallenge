@@ -27,9 +27,7 @@ The tech stack used for this framework creation are:
 
 ## Viewing the test report
 1. After the execution, navigate to reports folider - > html -> open the html report in browser
-
-![Screenshot 2020-11-02 at 11 39 03](https://user-images.githubusercontent.com/15077514/97860314-38803b00-1d02-11eb-8fb9-0abf0887182d.png)
-a
+![Screenshot 2020-12-11 at 19 11 34](https://user-images.githubusercontent.com/15077514/101940346-a4e63800-3be6-11eb-9213-5bb08e93ab27.png)
 ## Framework on High level.
 This framework is developed using Protractor  along with Typescript and using BDD approach(cucumber).
 
