@@ -24,8 +24,8 @@ The tech stack used for this framework creation are:
 2. Import the project in VSCode
 
 ## Run Project as TestNG and using Maven commands
-1. To Run as tag, navigate to config.ts file and update the 'tags'under the 'cucumberOpts'.
-2. Run the commands in the following order in the vscode terminal
+To Run as tag, navigate to config.ts file and update the 'tags'under the 'cucumberOpts'.
+Run the commands in the following order in the vscode terminal
 
 1. 'npm install -g typescript'
 2. 'npm install -g webdriver-manager'
