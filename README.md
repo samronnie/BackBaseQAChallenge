@@ -16,6 +16,7 @@ The tech stack used for this framework creation are:
 3. Install npm
 4. Install VSCode
 5. Install Git
+6. Install typescript
 5. Install browser
 
 ## Cloning & Importing the Project
@@ -24,12 +25,18 @@ The tech stack used for this framework creation are:
 
 ## Run Project as TestNG and using Maven commands
 1. To Run as tag, navigate to config.ts file and update the 'tags'under the 'cucumberOpts'.
-2. Run the commands in the following order 
+2. Run the commands in the following order in the vscode terminal
+'npm install -g typescript'
+'npm install -g webdriver-manager'
 'npm install' 
 'tsc' 
 'webdriver-manager update'
-'webdriver-manager start' 
+'webdriver-manager start --standalone' 
 'npm test'
+
+Please refer to this link if there are issues while running tsc command in windows- 
+
+https://www.roelpeters.be/solved-running-scripts-is-disabled-on-this-system-in-powershell/.
 
 ## Viewing the test report
 1. After the execution, navigate to reports folider - > html -> open the html report in browser
