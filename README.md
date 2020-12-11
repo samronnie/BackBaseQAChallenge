@@ -23,7 +23,12 @@ The tech stack used for this framework creation are:
 
 ## Run Project as TestNG and using Maven commands
 1. To Run as tag, navigate to config.ts file and update the 'tags'under the 'cucumberOpts'.
-2. Run the commands in the following order *npm install* *tsc* *webdriver-manager update* *webdriver-manager start* *npm test*
+2. Run the commands in the following order 
+'npm install' 
+'tsc' 
+'webdriver-manager update'
+'webdriver-manager start' 
+'npm test'
 
 ## Viewing the test report
 1. After the execution, navigate to reports folider - > html -> open the html report in browser
