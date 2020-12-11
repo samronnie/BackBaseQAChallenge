@@ -15,10 +15,11 @@ The tech stack used for this framework creation are:
 2. Install VSCode 
 3. Install npm
 4. Install VSCode
+5. Install Git
 5. Install browser
 
 ## Cloning & Importing the Project
-1. Clone the project using 'Get from version control' option in VSCode
+1. Clone the project using 'Clone repository' option in VSCode
 2. Import the project in VSCode
 
 ## Run Project as TestNG and using Maven commands
