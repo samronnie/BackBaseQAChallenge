@@ -1,0 +1,47 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "As a user, I should be able to login",
+    "line": 1,
+    "id": "as-a-user,-i-should-be-able-to-login",
+    "tags": [],
+    "uri": "features/login.feature",
+    "elements": [
+      {
+        "id": "as-a-user,-i-should-be-able-to-login;login-verification",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login verification",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "User launches the Url",
+            "match": {
+              "location": "stepDefinitions/loginStepDefinition.ts:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10013000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 10000 milliseconds\n    at Timeout._time.default.setTimeout [as _onTimeout] (/Users/samuel/BackBaseQAChallenge/node_modules/cucumber/lib/user_code_runner.js:76:18)\n    at ontimeout (timers.js:436:11)\n    at tryOnTimeout (timers.js:300:5)\n    at listOnTimeout (timers.js:263:5)\n    at Timer.processTimers (timers.js:223:10)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
