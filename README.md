@@ -17,7 +17,7 @@ The tech stack used for this framework creation are:
 4. Install VSCode
 5. Install Git
 6. Install typescript
-7. Install browser
+7. Install Chrome browser
 
 ## Cloning & Importing the Project
 1. Clone the project using 'Clone repository' option in VSCode
