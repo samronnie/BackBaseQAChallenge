@@ -17,7 +17,7 @@ The tech stack used for this framework creation are:
 4. Install VSCode
 5. Install Git
 6. Install typescript
-5. Install browser
+7. Install browser
 
 ## Cloning & Importing the Project
 1. Clone the project using 'Clone repository' option in VSCode
@@ -49,5 +49,5 @@ This framework is developed using Protractor  along with Typescript and using BD
 1. Implemented page object model
 2. Separated Test Layer with page objects
 3. Tests are written in Gherkin format using feature files
-4. Console logs are viewed using log4j.
+4. Console logs are viewed using log4js.
 5. Result are viewed in Protractor cucumber report.
