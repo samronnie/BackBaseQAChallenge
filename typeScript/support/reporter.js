@@ -9,9 +9,10 @@ const jsonReports = path.join(process.cwd(), "/reports/json");
 const htmlReports = path.join(process.cwd(), "/reports/html");
 const targetJson = jsonReports + "/cucumber_report.json";
 var date = new Date();
+var dateString = date.getUTCFullYear() + "_" + (date.getUTCMonth() + 1) + "_" + date.getUTCDate() + "_" + date.getUTCHours() + "_" + date.getUTCMinutes() + "_" + date.getUTCSeconds();
 const cucumberReporterOptions = {
     jsonFile: targetJson,
-    output: htmlReports + "/cucumber_reporter_" + date.toUTCString() + ".html",
+    output: htmlReports + "/cucumber_reporter" + dateString + ".html",
     reportSuiteAsScenarios: true,
     launchReport: false,
     theme: "bootstrap",

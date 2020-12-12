@@ -8,7 +8,7 @@ Scenario:  As a logged in user, I should be able to create an article
   When User signs in
   Then User should be logged in with 'testuserfollow'
   When User clicks on New Post link
-  Then User fills all the article creation details with title 'Article Check' description 'Article about' content 'This is a sample' and tags 'demo'
+  Then User fills all the article creation details with title 'title create'
   Then User clicks button Publish Article
   Then User validates the published article for user 'testuserfollow'
   Then User clicks on Home link
@@ -28,7 +28,7 @@ Scenario:  As a logged in user, I should be able to edit an article
 
 
 @deletearticle  @article
-Scenario:  As a logged in user, I should be able to edit an article
+Scenario:  As a logged in user, I should be able to delete an article
 
   When User navigates to his profile 'testuserfollow'
   Then User clicks on the first avaiable article

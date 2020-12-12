@@ -16,8 +16,8 @@ var updatedTimestamp;
 var deletedArticle  ;
 var assert = require('chai').assert;
 
-When('User fills all the article creation details with title {string} description {string} content {string} and tags {string}',
-    async (title, detail, content, tags) => {
+When('User fills all the article creation details with title {string}',
+    async (title) => {
 
 
         updatedTitle = title + currentTimeInSeconds;

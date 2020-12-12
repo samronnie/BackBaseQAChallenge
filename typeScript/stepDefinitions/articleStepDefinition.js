@@ -26,7 +26,7 @@ var elementIndex = 0;
 var updatedTimestamp;
 var deletedArticle;
 var assert = require('chai').assert;
-cucumber_1.When('User fills all the article creation details with title {string} description {string} content {string} and tags {string}', (title, detail, content, tags) => __awaiter(void 0, void 0, void 0, function* () {
+cucumber_1.When('User fills all the article creation details with title {string}', (title) => __awaiter(void 0, void 0, void 0, function* () {
     updatedTitle = title + currentTimeInSeconds;
     yield article.articleTitleInput.sendKeys(updatedTitle);
     yield article.articleAboutInput.sendKeys(data.ArticleDescription);
