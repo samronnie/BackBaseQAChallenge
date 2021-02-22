@@ -1,4 +1,4 @@
-# BackBaseQAChallenge
+# Automation Framework
 Framework created using protractor, typescript and cucumber
 
 # E2E Test Framework created using Protractor + Typescript + Cucumber + Proctractor cucumber report.
